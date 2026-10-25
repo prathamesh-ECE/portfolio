@@ -72,6 +72,10 @@ a{color:inherit;text-decoration:none;}
 .project-card:nth-of-type(2){animation-delay:.12s;}
 .project-card:nth-of-type(3){animation-delay:.19s;}
 .project-card:nth-of-type(4){animation-delay:.26s;}
+.project-card:nth-of-type(5){animation-delay:.33s;}
+.project-card:nth-of-type(6){animation-delay:.4s;}
+.project-card:nth-of-type(7){animation-delay:.47s;}
+.project-card:nth-of-type(8){animation-delay:.54s;}
 
 /* Hero load-in */
 .hero .chip-label{animation:fadeUp .6s ease both;}
