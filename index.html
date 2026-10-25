@@ -68,13 +68,13 @@
       <div class="skill-card">
         <h3>&lt;/&gt; Languages</h3>
         <div class="tag-list">
-          <span>C</span><span>Embedded C</span><span>Python</span><span>Verilog HDL</span><span>Lua</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+          <span>C</span><span>Embedded C</span><span>C++</span><span>Python</span><span>MicroPython</span><span>Verilog HDL</span><span>Lua</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span>
         </div>
       </div>
       <div class="skill-card">
         <h3>⚡ Embedded Systems</h3>
         <div class="tag-list">
-          <span>ATmega328P</span><span>Arduino (Register-Level)</span><span>ESP32</span><span>UART</span><span>Timers</span><span>PWM</span><span>Interrupts</span><span>GPIO</span><span>ADC</span>
+          <span>ATmega328P</span><span>Arduino (Register-Level)</span><span>ESP32</span><span>ESP32 (MicroPython)</span><span>UART</span><span>Timers</span><span>PWM</span><span>Interrupts</span><span>GPIO</span><span>ADC</span><span>Motor Drivers (L298N)</span><span>Ultrasonic &amp; IR Sensors</span><span>Battery Power Design</span>
         </div>
       </div>
       <div class="skill-card">
@@ -86,7 +86,7 @@
       <div class="skill-card">
         <h3>▦ Digital Design &amp; VLSI</h3>
         <div class="tag-list">
-          <span>RTL Design</span><span>FSMs</span><span>Counters</span><span>Shift Registers</span><span>ALU Design</span><span>Computer Architecture</span><span>Digital Electronics</span>
+          <span>RTL Design</span><span>FSMs</span><span>Counters</span><span>Shift Registers</span><span>ALU Design</span><span>Computer Architecture</span><span>Digital Electronics</span><span>FPGA (Tang Nano 20K)</span><span>Pipelined CPU Design</span><span>Forwarding Unit</span><span>UART in Hardware</span><span>PWM &amp; Timer Peripherals</span>
         </div>
       </div>
       <div class="skill-card">
@@ -98,7 +98,7 @@
       <div class="skill-card">
         <h3>🛠 Tools</h3>
         <div class="tag-list">
-          <span>Arduino IDE</span><span>VS Code</span><span>Git</span><span>GitHub</span><span>Ubuntu Linux</span><span>ROS 2</span><span>CoppeliaSim</span>
+          <span>Arduino IDE</span><span>Gowin FPGA Designer</span><span>Icarus Verilog</span><span>VS Code</span><span>Git</span><span>GitHub</span><span>Ubuntu Linux</span><span>Fedora Linux</span><span>ROS 2</span><span>CoppeliaSim</span>
         </div>
       </div>
     </div>
@@ -145,6 +145,30 @@
         <p>Autonomous robot simulations featuring wall-following, obstacle avoidance, sensor integration, and robot control using ROS 2 and Lua scripting in CoppeliaSim.</p>
       </div>
     </div>
+
+    <div class="project-card">
+      <div class="project-num">05</div>
+      <div>
+        <h3>Pipelined 8-bit MCU on FPGA (Tang Nano 20K)</h3>
+        <p>Custom CPU written in Verilog from scratch and run on a Sipeed Tang Nano 20K — program counter, program memory, decoder, control unit, register file, ALU with flags, a forwarding unit for pipeline hazards, and a hardware PWM timer, with a debounced push-button single-step clock for watching each stage.</p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-num">06</div>
+      <div>
+        <h3>FPGA Program Loader: ESP32 → UART → CPU</h3>
+        <p>End-to-end programming path for the FPGA CPU: a web page with a JavaScript assembler and a Node.js server, an ESP32 that polls it and streams bytes over UART into the FPGA program memory (baud generator, receiver and loader in Verilog), with results shown on LEDs.</p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-num">07</div>
+      <div>
+        <h3>Autonomous Obstacle-Avoiding Car</h3>
+        <p>ESP32-controlled 4-motor car (L298N driver, 18650 cells, buck converter) that roams a table on its own, stops when the ultrasonic sensor sees an obstacle ahead, and uses an IR sensor to avoid driving off the edge. Firmware in both MicroPython and Arduino C++.</p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -157,7 +181,6 @@
       <div class="sec-title" style="margin-bottom:8px;">Let's Connect</div>
       <p style="color:var(--muted); font-size:14.5px;">Open to collaborations, internships, and interesting conversations about hardware.</p>
       <div class="contact-links">
-        <a href="gmail.com">prahtamtambe26@gmail.com</a>
         <a href="https://github.com/prathamesh-ECE" target="_blank" rel="noopener">⌥ GitHub</a>
         <a href="https://www.instagram.com/pratham_26p?igsh=aXB6NmtlYWg4aXZn" target="_blank" rel="noopener">>◎ Instagram</a>
         <a href="https://www.linkedin.com/in/prathamesh-tambe-4691a0321/" target="_blank" rel="noopener">in LinkedIn</a>
